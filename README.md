@@ -1,10 +1,10 @@
-# Knub Command Manager
-[![npm version](https://img.shields.io/npm/v/knub-command-manager)][npm]
+# Vety Command Manager
+[![npm version](https://img.shields.io/npm/v/vety-command-manager)][npm]
 
-[npm]: https://www.npmjs.com/package/knub-command-manager
+[npm]: https://www.npmjs.com/package/vety-command-manager
 
-Knub Command Manager is a library for managing and matching text-based commands.
-It was created for use in [Knub](https://github.com/dragory/Knub), a Discord bot
+Vety Command Manager is a library for managing and matching text-based commands.
+It was created for use in [Vety](https://github.com/dragory/Vety), a Discord bot
 framework, but can also be used as standalone.
 
 ## Features
@@ -30,12 +30,12 @@ framework, but can also be used as standalone.
   configuration
 
 ## Installation
-`npm install knub-command-manager`
+`npm install vety-command-manager`
 
 ## Basic usage
 
 ```js
-import { CommandManager, parseSignature as p, string } from 'knub-command-manager';
+import { CommandManager, parseSignature as p, string } from 'vety-command-manager';
 
 const manager = new CommandManager({
   prefix: '!'
